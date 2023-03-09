@@ -1,6 +1,6 @@
 # Dne sequence Spring Boot Application
 
-This is an example Spring Boot application that checks if arrays of integer contains DNE
+This is an example Spring Boot application that checks if array of integers contain DNE
 
 ## Steps to build and run application
 
