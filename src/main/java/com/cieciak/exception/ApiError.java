@@ -9,10 +9,10 @@ import java.time.LocalDateTime;
 @Getter
 public class ApiError {
 
-    private HttpStatus status;
+    private final HttpStatus status;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy hh:mm:ss")
     private final LocalDateTime timestamp;
-    private String message;
+    private final String message;
 
     ApiError(final HttpStatus status, final String message) {
         this.timestamp = LocalDateTime.now();
